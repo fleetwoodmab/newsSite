@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    color: #052e37;
+}
+#mainNav {
+    background: linear-gradient(180deg, #BFCE40 30%, white 0 100%);		
+}

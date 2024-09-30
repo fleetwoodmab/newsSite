@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    color: #052e37;
-}
 #mainNav {
-    background: linear-gradient(180deg, #BFCE40 30%, white 0 100%);		
+    background: linear-gradient(180deg, #BFCE40 25%, white 0 100%);
+    padding-top: 4rem;
+    padding-bottom: 1rem;		
+}
+
+body {
+	margin: 0;
+	background: #eee;
+	font-family: sans-serif;
+	height: 100%;
 }

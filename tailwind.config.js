@@ -4,13 +4,12 @@ import flowbitePlugin from 'flowbite/plugin'
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
   theme: {
-    colors: {
-      'dark-blue-green': '#052e37',
-      'light-blue-green': '#37585f',
-      'lime-green':'#bfce40',
-    },
     extend: {
       colors: {
+        'dark-blue-green': '#052e37',
+        'light-blue-green': '#37585f',
+        'lime-green':'#bfce40',
+        'white':'#ffffff',
         // flowbite-svelte
         primary: {
           50: '#FFF5F2',
@@ -23,7 +22,8 @@ export default {
           700: '#EB4F27',
           800: '#CC4522',
           900: '#A5371B'
-        }
+        },
+        
       }
     },
   },

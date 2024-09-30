@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { AccordionItem, Accordion } from 'flowbite-svelte';
+    import { AccordionItem, Accordion, ImagePlaceholder } from 'flowbite-svelte';
 </script>
 
 <section class="">
@@ -14,7 +14,17 @@
     </div>    
 </section>
 
-<section class="p-5 max-w-2xl mx-auto mt-20">
+
+<section class="mt-40 mx-auto max-w-2xl">
+    <h2>Services</h2>
+    <div class="grid grid-cols-3 justify-center items-center gap-2">
+        <div><ImagePlaceholder imgOnly class="mt-8  animate-none" /></div>
+        <div><ImagePlaceholder imgOnly class="mt-8  animate-none" /></div>
+        <div><ImagePlaceholder imgOnly class="mt-8  animate-none" /></div>
+    </div>
+</section>
+
+<section class="p-5 max-w-2xl mx-auto my-40">
     <h2>News</h2>
     <Accordion>
         <AccordionItem>
@@ -42,46 +52,7 @@
     </Accordion>
 </section>
 
-<!-- Cool Table
 
-
-<section class="bg-gray-100 p-5">
-    <div class="max-w-2xl mx-auto">
-        <div class="bg-white shadow rounded-md overflow-hidden">
-        <div class="p-4 text-lg font-bold bg-gray-200">
-            News
-        </div>
-        <div class="divide-y">
-            <div class="p-4 cursor-pointer flex justify-between items-center" on:click={() => toggleCollapse('content1')}>
-                <span>9.8.2024</span>
-                <span>THESAURUS - Aktualisierung</span>
-            </div>
-            <div class="p-4 cursor-pointer flex justify-between items-center" on:click={() => toggleCollapse('content2')}>
-            <span>4.8.1024</span>
-            <span>TETHYS - neue Release</span>
-            </div>
-            <div class="p-4 cursor-pointer flex justify-between items-center" on:click={() => toggleCollapse('content3')}>
-            <span>3.6.2024</span>
-            <span>TETHYS - Übersiedlung auf neue Domäne</span>
-            <span class="ml-2">▼</span>
-            </div>
-            <div id="content3" class="hidden transition-height overflow-hidden p-4 bg-gray-50">
-            <p>
-                Für das Herunterladen von Raster- und Stationsdaten steht, neben dem Download-Formular, eine API zur Verfügung.
-                Die Dokumentation zur API finden Sie unter 
-                <a href="https://dataset.api.hub" class="text-blue-500 underline">https://dataset.api.hub</a>.
-            </p>
-            </div>
-            <div class="p-4 cursor-pointer flex justify-between items-center" on:click={() => toggleCollapse('content4')}>
-            <span>7.5.2024</span>
-            <span>TETHYS - Datenzugriff via API</span>
-            </div>
-        </div>
-        </div>
-    </div>
-    </section>
-
--->
 
 
 <!-- 

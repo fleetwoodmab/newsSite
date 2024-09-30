@@ -25,22 +25,22 @@
 	$: activeUrl = $page.url.pathname;
   </script>
 
-<Navbar id="mainNav">
+<Navbar id="mainNav" class="shadow-md">
 	<NavBrand href="/">
-	  <img src="flowbite-svelte-icon-logo.svg" class="me-3 h-6 sm:h-9" alt="Flowbite Logo" />
-	  <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Geoinformation Services</span>
+	  <img src="GSAlogo.png" class="pr-8 h-12 border-r-2 border-dark-blue-green" alt="Geosphere Austria Logo" />
+	  <span class="place-self-start whitespace-nowrap text-l font-bold ml-3">Geoinformation Services</span>
 	</NavBrand>
 	<NavHamburger />
-	<NavUl {activeUrl}>
+	<NavUl {activeUrl} classUl="pb-0">
 	  <NavLi class="cursor-pointer">
 		Services<ChevronDownOutline class="w-6 h-6 ms-2 inline" />
 	  </NavLi>
 	  <Dropdown class="w-44 z-20">
-		<DropdownItem href="/">Dashboard</DropdownItem>
-		<DropdownItem href="/docs/components/navbar">Settings</DropdownItem>
-		<DropdownItem href="/">Earnings</DropdownItem>
+		<DropdownItem href="/blog">Blog</DropdownItem>
+		<DropdownItem href="/blog/category">Categories</DropdownItem>
+		<DropdownItem href="/about">About</DropdownItem>
 		<DropdownDivider />
-		<DropdownItem href="/">Sign out</DropdownItem>
+		<DropdownItem href="/contact">Contact</DropdownItem>
 	  </Dropdown>
 	  <NavLi href="/contact">Contact</NavLi>
 	  <NavLi class="cursor-pointer">

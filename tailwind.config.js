@@ -10,6 +10,7 @@ export default {
         'light-blue-green': '#37585f',
         'lime-green':'#bfce40',
         'white':'#ffffff',
+        "blue-grey": '#e6eaeb',
         // flowbite-svelte
         primary: {
           50: '#FFF5F2',

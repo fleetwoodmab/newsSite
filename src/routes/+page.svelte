@@ -14,16 +14,6 @@
     </div>    
 </section>
 
-
-<section class="mt-40 mx-auto max-w-2xl">
-    <h2>Services</h2>
-    <div class="grid grid-cols-3 justify-center items-center gap-2">
-        <div><ImagePlaceholder imgOnly class="mt-8  animate-none" /></div>
-        <div><ImagePlaceholder imgOnly class="mt-8  animate-none" /></div>
-        <div><ImagePlaceholder imgOnly class="mt-8  animate-none" /></div>
-    </div>
-</section>
-
 <section class="p-5 max-w-2xl mx-auto my-40">
     <h2>News</h2>
     <Accordion>
@@ -53,6 +43,22 @@
 </section>
 
 
+<section class="grid grid-cols-3 justify-stretch justify-items-center bg-blue-grey pt-20 pb-40"> 
+    <h2 class="text-lg ">Services</h2>
+    <div class="grid grid-cols-3 justify-center items-center gap-2">
+        <div><ImagePlaceholder imgOnly class="mt-8  animate-none" /></div>
+        <div><ImagePlaceholder imgOnly class="mt-8  animate-none" /></div>
+        <div><ImagePlaceholder imgOnly class="mt-8  animate-none" /></div>
+    </div>
+</section>
+
+<!-- <section class="my-40 mx-auto max-w-2xl bg-blue-grey">  -->
+
+<style>
+    * {
+        height: 100%;
+    }
+</style>
 
 
 <!-- 

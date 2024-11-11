@@ -3,7 +3,7 @@
     import Footer from "$lib/components/Footer.svelte";
     import '$lib/styles/style.css'
     import "../app.css";
-
+    import '../i18n';
     import { fade } from 'svelte/transition';
     export let data;
 </script>

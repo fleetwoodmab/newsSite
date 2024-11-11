@@ -5,12 +5,19 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
       colors: {
-        'dark-blue-green': '#052e37',
-        'light-blue-green': '#37585f',
-        'lime-green':'#bfce40',
+        "dark-blue-green": '#052e37',
+        "light-blue-green": '#37585f',
+        "lime-green":'#bfce40',
         'white':'#ffffff',
         "blue-grey": '#e6eaeb',
+        "dark-grey": '#adbabe',
+        'light-grey':'#5a5a5a',
+        'red':'#E7343F',
+        'teal':'#3692BC',
         // flowbite-svelte
         primary: {
           50: '#FFF5F2',
@@ -24,8 +31,14 @@ export default {
           800: '#CC4522',
           900: '#A5371B'
         },
+        gray: {
+          500: '#052e37',
+        },
         
-      }
+      },
+      maxWidth: {
+        'none-important': 'none !important',
+      },
     },
   },
   plugins: [flowbitePlugin],

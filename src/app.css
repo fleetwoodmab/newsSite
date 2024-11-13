@@ -30,5 +30,10 @@ body {
     border-top: 2px solid darkgrey; 
 }
 
+input::placeholder{
+	color: #5a5a5a;
+}
+
+
 
 

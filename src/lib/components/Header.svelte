@@ -12,7 +12,7 @@
 	</NavBrand>
 
 	<NavHamburger />
-	<NavUl  classUl="pb-0">
+	<NavUl classUl="pb-0">
 
 		<NavLi class="cursor-pointer mr-6 text-sm font-semibold"> 
 			Services<ChevronDownOutline class="w-6 h-6 inline" />

@@ -9,8 +9,6 @@
 
 
 </script>
-  
-  <!-- Main Container -->
   <div class="container mx-auto my-24">
     <Breadcrumb aria-label="Default breadcrumb example" class="mt-[-55px]">
       <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
@@ -21,20 +19,18 @@
     <section class=" mb-5">
         <div class="flex justify-center items-center mt-20 px-6"> 
             <div class="flex w-full max-w-4xl"> 
-                <img src="pic.png" alt="" class="h-auto">
+                <img src="tethysHome.png" alt="" class="h-36">
                 <div class="flex-grow ml-8">
-                    <h1 class="text-3xl mb-5 font-semibold text-teal">Tethys</h1>
-                      <p class="text-md text-light-grey">GeoSphere Austria, die neu gegründete Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie. 
-                        <br> <br> 
-                        <a href="tethys.at" class="text-teal underline">tethys.at</a>
-                      </p>
+                  <img src="tethysLogo.svg" alt="" class="h-10">
+                      <p class="text-md text-light-grey pt-6">Über Tethys RDR (tethys.at) werden innerhalb der Organisation generierte Forschungsdaten als open data und nach den FAIR Prinzipien veröffentlicht.</p> 
+                        <a href="tethys.at" class="text-teal underline absolute pt-3">tethys.at</a>
                 </div>
             </div>
         </div>    
     </section>
   
     <!-- Tabs Component -->
-    <div class="flex w-full max-w-4xl mx-auto">
+    <div class="flex w-full max-w-4xl mx-auto pt-12">
       <div class="">
         <ul class="flex flex-wrap -mb-px ">
           <li class="mr-2">
@@ -59,7 +55,7 @@
     
     <!-- Conditionally Render Tabs Content -->
     {#if activeTab === 'News'}
-      <div class="w-full max-w-4xl mx-auto mb-5 mt-3 border-grey border-4 p-8" style="clip-path: polygon(-0.44% -2.20%, 0.39% -2.77%, 0.51% 13px, 7.24% 13px, 7.02% -3.52%, 100% -1.45%, 100% 100%, 0px 100%)">
+      <div class="w-full max-w-4xl mx-auto mb-5 mt-0 border-grey border-4 p-8 top-3 relative" style="clip-path: polygon(-0.44% -2.20%, 0.39% -2.77%, 0.51% 13px, 7.24% 13px, 7.02% -3.52%, 100% -1.45%, 100% 100%, 0px 100%)">
         <Accordion defaultClass="" activeClass="bg-white border-b-0 text-teal">
                 <AccordionItem class="" defaultClass="flex items-center justify-between w-full font-medium text-left group-first:rounded-none bg-blue-grey" >
                     <span slot="header" class="text-xs">09.10.2024 <span class="ml-20 text-base ">THESAURUS - Aktualisierung</span> </span>
@@ -85,7 +81,7 @@
   
     <!-- Info and FAQs -->
     {#if activeTab === 'Info'}
-      <div class="w-full max-w-4xl mx-auto mb-5 mt-3 border-grey border-4 p-8" style="clip-path: polygon(-0.11% -0.35%, 7.65% -1.66%, 7.76% 11px, 12.93% 12px, 12.94% -1.89%, 100% -1.45%, 100% 100%, 0px 100%)">
+      <div class="w-full max-w-4xl mx-auto mb-5 mt-0 border-grey border-4 p-8 top-3 relative" style="clip-path: polygon(-0.11% -0.35%, 7.65% -1.66%, 7.76% 11px, 12.93% 12px, 12.94% -1.89%, 100% -1.45%, 100% 100%, 0px 100%)">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, impedit magni voluptatum ipsum optio qui excepturi iure illo, ipsa sint voluptatibus dolores reprehenderit possimus dicta quae provident repellat! Eaque, enim?</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident nemo enim sed possimus sequi libero nobis magni laborum quaerat ea odit debitis repellat, temporibus nam dolorum ex aliquam nesciunt odio.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorum accusantium consequuntur vero harum assumenda neque quam laudantium facere maxime sit, quo voluptatum similique iusto fuga itaque est molestiae suscipit.</p>

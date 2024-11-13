@@ -19,11 +19,11 @@
     <section class=" mb-5">
         <div class="flex justify-center items-center mt-20 px-6"> 
             <div class="flex w-full max-w-4xl"> 
-                <img src=" /tethysHome.png" alt="" class="h-36">
+                <img src="/tethysHome.png" alt="" class="h-36">
                 <div class="flex-grow ml-8">
-                  <img src=" /tethysLogo.svg" alt="" class="h-10">
+                  <img src="/tethysLogo.svg" alt="" class="h-10">
                       <p class="text-md text-light-grey pt-6">Über Tethys RDR (tethys.at) werden innerhalb der Organisation generierte Forschungsdaten als open data und nach den FAIR Prinzipien veröffentlicht.</p> 
-                        <a href="tethys.at" class="text-teal underline absolute pt-3">tethys.at</a>
+                        <a href="https://www.tethys.at" class="text-teal underline absolute pt-3">tethys.at</a>
                 </div>
             </div>
         </div>    

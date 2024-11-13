@@ -1,0 +1,10 @@
+{
+	"runtime": "nodejs18.x",
+	"handler": "..\\..\\..\\..\\..\\..\\..\\Users\\barmar\\Desktop\\Literally Everything\\Stuff\\newsSite\\.svelte-kit\\vercel-tmp\\index.js",
+	"launcherType": "Nodejs",
+	"experimentalResponseStreaming": true,
+	"framework": {
+		"slug": "sveltekit",
+		"version": "2.5.28"
+	}
+}

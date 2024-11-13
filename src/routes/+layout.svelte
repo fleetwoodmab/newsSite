@@ -6,6 +6,8 @@
     import '../i18n';
     import { fade } from 'svelte/transition';
     export let data;
+    export const prerender = true;
+    export const trailingSlash = "always";
 </script>
 
 <Header>

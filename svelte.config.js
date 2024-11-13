@@ -19,8 +19,8 @@ const config = {
         appDir: 'app', // Required as the default is _app
         adapter: adapter(),
 		paths: {
-            base: dev ? '' : process.env.BASE_PATH,
-        }
+			base: process.env.NODE_ENV === "production" ? "/newsSite" : "",
+		},
     },
 	preprocess: vitePreprocess(),
 

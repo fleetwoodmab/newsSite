@@ -5,7 +5,7 @@
 <section class="">
     <div class="flex justify-center items-center mt-20 px-6"> 
         <div class="flex w-full max-w-4xl"> 
-            <img src="pic.png" alt="" class="h-auto">
+            <img src="/pic.png" alt="" class="h-auto">
             <div class="flex-grow ml-8">
                 <h1 class="text-3xl mb-5 font-semibold text-dark-blue-green">Geoinformation</h1>
                 <p class="text-md text-light-grey">GeoSphere Austria, die neu gegründete Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie, liefert wichtige Grundlagen zu den großen Herausforderungen unserer Gesellschaft. <br> Eine wichtige Grundlage ist die systematische und nachhaltige Verarbeitung und Bereitstellung der Daten. Das Department für Geoinformation trägt zur Erfüllung dieser Aufgabe mit diesen Services bei.</p>

@@ -7,7 +7,7 @@
 
 <Navbar id="mainNav" class="shadow-md">
 	<NavBrand href="/">
-	  <img src="GSAlogo.png" class="pr-8 h-12 border-r-2 border-dark-blue-green" alt="Geosphere Austria Logo" />
+	  <img src="/GSAlogo.png" class="pr-8 h-12 border-r-2 border-dark-blue-green" alt="Geosphere Austria Logo" />
 	  <span class="place-self-start whitespace-nowrap text-xl font-semibold ml-4">GeoInformation Services</span>
 	</NavBrand>
 

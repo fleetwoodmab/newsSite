@@ -19,21 +19,21 @@
     <Accordion class="border-dark-grey border-t-4 ">
         <AccordionItem class="accordion-item" defaultClass="flex items-center justify-between w-full font-medium text-left group-first:rounded-none bg-blue-grey" activeClass="inherit bg-white border-b-0 ">
             <span slot="header" class="text-light-grey text-xs">09.10.2024 <span class="ml-20 text-dark-blue-green text-base">THESAURUS - Aktualisierung</span> </span>
-            <p class="text-light-grey ml-36 text-sm mt-[-25px]">
+            <p class="text-light-grey ml-36 text-sm mt-[-20px]">
                 Check out this guide to learn how to <a href="/" target="_blank" rel="noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline"> get started </a>
                 and start developing websites even faster with components on top of Tailwind CSS.
             </p>
         </AccordionItem>
         <AccordionItem class="accordion-item" defaultClass="flex items-center justify-between w-full font-medium text-left group-first:rounded-none bg-blue-grey" activeClass="inherit bg-white border-b-0">
             <span slot="header" class="text-light-grey text-xs">09.10.2024 <span class="ml-20 text-dark-blue-green text-base">THESAURUS - Aktualisierung</span> </span>
-            <p class="text-light-grey ml-36 text-sm">
+            <p class="text-light-grey ml-36 text-sm mt-[-20px]">
                 Check out this guide to learn how to <a href="/" target="_blank" rel="noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline"> get started </a>
                 and start developing websites even faster with components on top of Tailwind CSS.
             </p>
         </AccordionItem>
         <AccordionItem class="accordion-item" defaultClass="flex items-center justify-between w-full font-medium text-left group-first:rounded-none bg-blue-grey" activeClass="inherit bg-white border-b-0" paddingFlush="pb-0">
             <span slot="header" class="text-light-grey text-xs">09.10.2024 <span class="ml-20 text-dark-blue-green text-base">THESAURUS - Aktualisierung</span> </span>
-            <p class="text-light-grey ml-36 text-sm">
+            <p class="text-light-grey ml-36 text-sm mt-[-20px]">
                 Check out this guide to learn how to <a href="/" target="_blank" rel="noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline"> get started </a>
                 and start developing websites even faster with components on top of Tailwind CSS.
             </p>

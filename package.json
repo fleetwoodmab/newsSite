@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-i18n": "^4.0.1"
+		"svelte-i18n": "^4.0.1",
+		"sveltekit-i18n": "^2.4.2"
 	}
 }

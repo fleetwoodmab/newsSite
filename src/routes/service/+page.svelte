@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte';
+    import { t, locale, locales } from "$lib/translations/i18n";
   
     let features = []; 
     let errorMessage = '';
@@ -21,10 +22,18 @@
         errorMessage = error.message; 
       }
     });
+	
 </script>
 
 <main>
   <div class="container mx-auto my-24">
+  
+    <h1>{$t("homepage.title")}!</h1>
+    <p>{@html $t("homepage.welcome", { name: "Jane Doe" })}!</p>
+
+    <br>
+    <hr>
+
     <h1 class="mb-4 text-3xl">Service Information</h1>
     {#if errorMessage}
       <p class="text-red-500">Error: {errorMessage}</p>

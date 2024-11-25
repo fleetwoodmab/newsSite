@@ -5,5 +5,12 @@
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, impedit magni voluptatum ipsum optio qui excepturi iure illo, ipsa sint voluptatibus dolores reprehenderit possimus dicta quae provident repellat! Eaque, enim?</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident nemo enim sed possimus sequi libero nobis magni laborum quaerat ea odit debitis repellat, temporibus nam dolorum ex aliquam nesciunt odio.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorum accusantium consequuntur vero harum assumenda neque quam laudantium facere maxime sit, quo voluptatum similique iusto fuga itaque est molestiae suscipit.</p>
-  </div>
-  
+</div>
+
+<style>
+  @media (max-width: 768px) {
+    div {
+      clip-path: none !important;
+    }
+}
+</style>

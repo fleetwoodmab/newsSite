@@ -69,6 +69,14 @@
  
   </div>
 
+<style>
+  @media (max-width: 768px) {
+    div {
+      clip-path: none !important;
+    }
+}
+</style>
+
 
   
   

@@ -1,4 +1,5 @@
 <script>
+    import { t } from "$lib/translations/i18n";
     import { Accordion, AccordionItem, Input } from "flowbite-svelte";
     import { onMount } from "svelte";
     
@@ -46,7 +47,7 @@
       id="small-input"
       type="text"
       bind:value={searchTerm}
-      placeholder="FAQs durchsuchen"
+      placeholder="{$t("tabs.faq")}"
       class="border p-2 rounded w-full text-xs text-light-grey focus:ring-0 focus:border-gray-300 bg-white rounded-r-none border-r-0"
     />
   

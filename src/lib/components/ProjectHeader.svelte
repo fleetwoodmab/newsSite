@@ -5,7 +5,7 @@
   </script>
 
 <section class="mb-5">
-  <div class="flex justify-center items-center mt-20 px-6">
+  <div class="flex justify-center items-center mt-32 px-6">
     <div class="flex w-full max-w-4xl">
       <img src="/tethysHome.png" alt="" class="h-36" />
       <div class="flex-grow ml-8">

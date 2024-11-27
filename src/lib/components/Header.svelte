@@ -2,7 +2,7 @@
     import { Navbar, NavBrand, NavLi, NavUl, Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte';
     import { ChevronDownOutline } from 'flowbite-svelte-icons';
     import { page } from '$app/stores';
-    import { locale, locales } from '$lib/translations/i18n';
+    import { locale, locales, t } from '$lib/translations/i18n';
     $: activeUrl = $page.url.pathname;
 
     let currentLocale; 
@@ -11,6 +11,8 @@
     function selectLocale(newLocale) {
         locale.set(newLocale);
     }
+
+    let dropdownOpen = false;
 </script>
 
 <Navbar id="mainNav" class="shadow-md">
@@ -24,22 +26,22 @@
             <NavLi class="cursor-pointer mr-6 text-sm font-semibold relative">
                 Services
                 <ChevronDownOutline class="w-6 h-6 inline" />
-                <Dropdown class="w-44 z-20 p-0 rounded-none bg-blue-grey border-2 border-dark-grey absolute top-full mt-2">
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/blog">GeoSphere Maps</DropdownItem>
+                <Dropdown class="w-44 z-20 p-0 rounded-none bg-blue-grey border-2 border-dark-grey absolute top-full mt-2" bind:open={dropdownOpen}>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/blog" on:click={() => (dropdownOpen = false)}>GeoSphere Maps</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/tethys">Tethys RDR</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/tethys" on:click={() => (dropdownOpen = false)}>Tethys RDR</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/about">Geodatenkatalog</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/about" on:click={() => (dropdownOpen = false)}>Geodatenkatalog</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/contact">Geothermie Atlas</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/contact" on:click={() => (dropdownOpen = false)}>Geothermie Atlas</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/contact">IRIS</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/contact" on:click={() => (dropdownOpen = false)}>IRIS</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/contact">Multithematische Karte</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/contact" on:click={() => (dropdownOpen = false)}>Multithematische Karte</DropdownItem>
                 </Dropdown>
             </NavLi>
 
-            <NavLi href="#contact" class="mr-6 text-sm font-semibold">Kontakte</NavLi>
+            <NavLi href="#contact" class="mr-6 text-sm font-semibold">{$t("nav.contact")}</NavLi>
 
             <NavLi class="cursor-pointer relative">
                 <span class="border-l-2 border-dark-blue-green pl-5 py-1 text-sm font-semibold">

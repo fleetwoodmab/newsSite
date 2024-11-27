@@ -6,6 +6,8 @@
   import Faq from "$lib/components/FAQ.svelte";
   import ProjectHeader from "$lib/components/ProjectHeader.svelte";
   import Tabs from "$lib/components/Tabs.svelte";
+    import { t } from "$lib/translations/i18n";
+    import { HomeOutline } from "flowbite-svelte-icons";
 
   let activeTab = 'News';
 
@@ -19,15 +21,17 @@
 </script>
 
 <div class="container mx-auto my-24">
-  <Breadcrumb class="mt-[-55px]">
-      <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
-      <BreadcrumbItem href="/">Projects</BreadcrumbItem>
-      <BreadcrumbItem>Tethys</BreadcrumbItem>
+  <Breadcrumb classOl="mt-[-100px] ml-24">
+      <BreadcrumbItem classHome="text-xs" href="/" home>
+        <svelte:fragment slot="icon"><HomeOutline class="w-4 h-4 me-2" /></svelte:fragment>
+        Home</BreadcrumbItem>
+      <BreadcrumbItem classLink="text-xs" href="/">Services</BreadcrumbItem>
+      <BreadcrumbItem classSpan="text-xs">Tethys</BreadcrumbItem>
   </Breadcrumb>
 
   <ProjectHeader
       logoSrc="/tethysLogo.svg"
-      description="Über Tethys RDR (tethys.at) werden innerhalb der Organisation generierte Forschungsdaten als open data und nach den FAIR Prinzipien veröffentlicht."
+      description={$t("tethys.desc")}
       linkHref="https://www.tethys.at"
   />
 

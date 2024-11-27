@@ -1,4 +1,5 @@
 <script>
+    import { t } from '$lib/translations/i18n';
   import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon, A } from 'flowbite-svelte';
   import { EnvelopeOutline, PhoneOutline } from 'flowbite-svelte-icons';
 </script>
@@ -9,7 +10,7 @@
     <p class="text-left text-2xl font-semibold max-w-[100px] w-full sm:text-center md:text-left">Department Geoinformation</p>
     
     <div class="sm:text-center md:text-left mr-24">
-      <h2 class="mb-6 text-xl font-semibold">Kontakt</h2>
+      <h2 class="mb-6 text-xl font-semibold">{$t("nav.contact")}</h2>
       <div class="flex flex-col items-center md:items-start">
         <p class="mb-4 text-sm">Standort Neulingasse 38, <br> 1030 Wien</p>
         <ul class="text-sm text-center md:text-left">
@@ -31,12 +32,12 @@
     </div>
 
     <div class="flex flex-col justify-between mb-10 sm:text-center md:text-left">
-      <h2 class="mb-6 text-xl font-semibold text-white">Kontakt</h2>
+      <h2 class="mb-6 text-xl font-semibold text-white">{$t("nav.contact")}</h2>
       <FooterLinkGroup class="flex flex-col items-center md:items-start">
         <span class="mb-4 text-sm text-white">Geosphere Austria <br> 1190 Wien, Hohe Warte 38</span>
         <FooterLinkGroup class="text-xs text-white grid grid-cols-1 sm:grid-cols-2 gap-y-5 mt-8 ">
-          <li class="mb-4 pr-2 border-r-2 border-lime-green"><a href="">Detaillirte Kontaktseite</a></li>
-          <li class="mb-4 pl-2"><a href="">Presse Kontakte</a></li>
+          <li class="mb-4 pr-2 border-r-2 border-lime-green"><a href="">{$t("nav.dtcontact")}</a></li>
+          <li class="mb-4 pl-2"><a href="">{$t("nav.prsscontact")}</a></li>
         </FooterLinkGroup>
       </FooterLinkGroup>
     </div>
@@ -73,9 +74,9 @@
       
       <ul class="text-xs flex flex-wrap">
         <li class="border-r-2 border-lime-green pr-2">Impressum</li>
-        <li class="border-r-2 border-lime-green px-2">Datenschutz</li>
+        <li class="border-r-2 border-lime-green px-2">{$t("nav.data")}</li>
         <li class="border-r-2 border-lime-green px-2">Legal</li>
-        <li class="pl-2">Barrierefreiheit</li>
+        <li class="pl-2">{$t("nav.access")}</li>
       </ul>
     </div>
   

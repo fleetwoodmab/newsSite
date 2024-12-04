@@ -26,8 +26,8 @@
 </section>
 
 <!-- Second Footer -->
-<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-stretch justify-items-center bg-dark-blue-green pt-12 pb-12">
-    <div class="flex flex-col items-center sm:items-start justify-center mb-4">
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-stretch justify-items-center bg-dark-blue-green pt-14 pb-12">
+    <div class="flex flex-col items-center sm:items-start justify-center mb-4 -mt-5">
       <img src="GSALogo.svg" class="w-auto h-auto" />
     </div>
 

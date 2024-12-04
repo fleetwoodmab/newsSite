@@ -1,4 +1,6 @@
 <script>
+    import { fade } from "svelte/transition";
+
     export let tabs = []; 
     export let activeTab; 
     export let onTabChange; 
@@ -8,7 +10,7 @@
     <ul class="flex flex-wrap -mb-px">
       {#each tabs as tab}
         <li class="mr-2">
-          <a href="#"
+          <a href="#" 
              class="inline-block py-2 px-2 border-b-0 relative z-2 top-3 border-grey {activeTab === tab ? 'activeTab' : ''}" 
              on:click={() => onTabChange(tab)}> 
             {tab}

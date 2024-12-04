@@ -12,7 +12,8 @@
         locale.set(newLocale);
     }
 
-    let dropdownOpen = false;
+    let dropdownOpen = false; //to close the dropdown once item clicked
+
 </script>
 
 <Navbar id="mainNav" class="shadow-md">
@@ -23,10 +24,9 @@
         </NavBrand>
 
         <NavUl classUl="flex items-center pb-0 w-full justify-end">
-            <NavLi class="cursor-pointer mr-6 text-sm font-semibold relative">
-                Services
-                <ChevronDownOutline class="w-6 h-6 inline" />
-                <Dropdown class="w-44 z-20 p-0 rounded-none bg-blue-grey border-2 border-dark-grey absolute top-full mt-2" bind:open={dropdownOpen}>
+            <NavLi class="cursor-pointer mr-6 text-sm font-semibold relative hover:text-red">
+                Services<ChevronDownOutline class="w-6 h-6 inline" /></NavLi>
+                <Dropdown class="w-44 z-20 p-0 rounded-none bg-blue-grey border-2 border-dark-grey absolute top-full mt-2 ml-[-90px]" bind:open={dropdownOpen}>
                     <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/blog" on:click={() => (dropdownOpen = false)}>GeoSphere Maps</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
                     <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/tethys" on:click={() => (dropdownOpen = false)}>Tethys RDR</DropdownItem>
@@ -39,15 +39,15 @@
                     <DropdownDivider class="bg-dark-grey my-0" />
                     <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/contact" on:click={() => (dropdownOpen = false)}>Multithematische Karte</DropdownItem>
                 </Dropdown>
-            </NavLi>
+            
 
-            <NavLi href="#contact" class="mr-6 text-sm font-semibold">{$t("nav.contact")}</NavLi>
+            <NavLi href="#contact" class="mr-6 text-sm font-semibold hover:text-red">{$t("nav.contact")}</NavLi>
 
             <NavLi class="cursor-pointer relative">
                 <span class="border-l-2 border-dark-blue-green pl-5 py-1 text-sm font-semibold">
                     {currentLocale.toUpperCase()}
                 </span>
-                <ChevronDownOutline class="w-6 h-6 inline" />
+                <ChevronDownOutline class="w-6 h-6 inline" /></NavLi>
                 <Dropdown class="w-22 z-20 rounded-none bg-blue-grey border-2 border-dark-grey p-0 absolute top-full mt-2">
                     {#each locales as l}
                         <DropdownItem on:click={() => selectLocale(l)} class="hover:bg-white hover:text-red cursor-pointer">
@@ -55,7 +55,7 @@
                         </DropdownItem>
                     {/each}
                 </Dropdown>
-            </NavLi>
+            
         </NavUl>
     </div>
 </Navbar>

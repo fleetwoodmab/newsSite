@@ -1,6 +1,7 @@
 <script>
     import { t } from "$lib/translations/i18n";
     import { Accordion, AccordionItem, Input } from "flowbite-svelte";
+    import { PlusOutline, MinusOutline } from "flowbite-svelte-icons";
     import { onMount } from "svelte";
     
     export let faqFetchUrl;
@@ -48,7 +49,7 @@
       type="text"
       bind:value={searchTerm}
       placeholder="{$t("tabs.faq")}"
-      class="border p-2 rounded w-full text-xs text-light-grey focus:ring-0 focus:border-gray-300 bg-white rounded-r-none border-r-0"
+      class="border p-2 rounded w-full text-xs text-light-grey focus:ring-0 focus:border-gray-300 bg-white"
     />
   
     <hr class="mt-4">
@@ -58,9 +59,15 @@
   {:else if faqItems.length > 0}
     <Accordion flush activeClass="text-lime-green">
       {#each filteredFaqItems as item}
-        <AccordionItem class="text-xs font-bold hover:text-teal">
+        <AccordionItem class="text-sm font-bold hover:text-teal">
           <span slot="header" class="pl-1">{item.title}</span>
-          <p class="mb-2 font-light pl-3 text-xs">{item.content}</p>
+          <div slot="arrowup">
+            <MinusOutline class="" />
+          </div>
+          <span slot="arrowdown">
+            <PlusOutline class="" />
+          </span>
+          <p class="mb-2 pl-3 text-sm">{item.content}</p>
         </AccordionItem>
       {/each}
     </Accordion>

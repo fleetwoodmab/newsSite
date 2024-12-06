@@ -1,13 +1,14 @@
 <script>
+    export let projImg;
     export let logoSrc;
     export let description;
     export let linkHref;
   </script>
 
 <section class="mb-5">
-  <div class="flex justify-center items-center mt-32 px-6">
+  <div class="flex justify-center items-center px-6">
     <div class="flex w-full max-w-4xl">
-      <img src="/tethysHome.png" alt="" class="h-36" />
+      <img src={projImg} alt="" class="h-48 border-2 p-2" />
       <div class="flex-grow ml-8">
         <img src={logoSrc} alt="Logo" class="h-10" />
         <p class="text-md text-light-grey pt-6">{description}</p>

@@ -35,6 +35,9 @@ input::placeholder{
 	color: #5a5a5a;
 }
 
+@media (min-width: 768px) {	.md\:hover\:text-primary-700:hover {
+	  color: inherit !important; }
+}
 
 
 

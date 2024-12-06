@@ -6,10 +6,10 @@
 
 <Footer class="bottom-0 w-full text-white" id="contact">
 
-<section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-stretch justify-items-center py-12 bg-light-blue-green">
+<section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-stretch justify-items-center py-12 px-10 bg-light-blue-green">
     <p class="text-left text-2xl font-semibold max-w-[100px] w-full sm:text-center md:text-left">Department Geoinformation</p>
     
-    <div class="sm:text-center md:text-left mr-24">
+    <div class="sm:text-center md:text-left -ml-52">
       <h2 class="mb-6 text-xl font-semibold">{$t("nav.contact")}</h2>
       <div class="flex flex-col items-center md:items-start">
         <p class="mb-4 text-sm">Standort Neulingasse 38, <br> 1030 Wien</p>
@@ -26,7 +26,7 @@
 </section>
 
 <!-- Second Footer -->
-<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-stretch justify-items-center bg-dark-blue-green pt-14 pb-12">
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-stretch justify-items-center bg-dark-blue-green pt-14 pb-12 pl-12 pr-40">
     <div class="flex flex-col items-center sm:items-start justify-center mb-4 -mt-5">
       <img src="GSALogo.svg" class="w-auto h-auto" />
     </div>

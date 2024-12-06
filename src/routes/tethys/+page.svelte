@@ -21,7 +21,7 @@
 </script>
 
 <div class="container mx-auto my-24">
-  <Breadcrumb classOl="mt-[-100px] ml-24">
+  <Breadcrumb classOl="mt-[-100px] ml-6">
       <BreadcrumbItem classHome="text-xs" href="/" home>
         <svelte:fragment slot="icon"><HomeOutline class="w-4 h-4 me-2" /></svelte:fragment>
         Home</BreadcrumbItem>
@@ -30,6 +30,7 @@
   </Breadcrumb>
 
   <ProjectHeader
+      projImg="/tethysHome.png"
       logoSrc="/tethysLogo.svg"
       description={$t("tethys.desc")}
       linkHref="https://www.tethys.at"

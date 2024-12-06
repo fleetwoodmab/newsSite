@@ -24,33 +24,33 @@
         </NavBrand>
 
         <NavUl classUl="flex items-center pb-0 w-full justify-end">
-            <NavLi class="cursor-pointer mr-6 text-sm font-semibold relative hover:text-red">
+            <NavLi class="cursor-pointer mr-6 text-sm relative hover:font-bold">
                 Services<ChevronDownOutline class="w-6 h-6 inline" /></NavLi>
-                <Dropdown class="w-44 z-20 p-0 rounded-none bg-blue-grey border-2 border-dark-grey absolute top-full mt-2 ml-[-90px]" bind:open={dropdownOpen}>
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/blog" on:click={() => (dropdownOpen = false)}>GeoSphere Maps</DropdownItem>
+                <Dropdown class="w-44 z-20 p-0 rounded-none text-sm hover:font-bold bg-blue-grey border-2 border-dark-grey absolute top-full mt-2 ml-[-90px]" bind:open={dropdownOpen}>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/blog" on:click={() => (dropdownOpen = false)}>GeoSphere Maps</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/tethys" on:click={() => (dropdownOpen = false)}>Tethys RDR</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/tethys" on:click={() => (dropdownOpen = false)}>Tethys RDR</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/about" on:click={() => (dropdownOpen = false)}>Geodatenkatalog</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/about" on:click={() => (dropdownOpen = false)}>Geodatenkatalog</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/contact" on:click={() => (dropdownOpen = false)}>Geothermie Atlas</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/contact" on:click={() => (dropdownOpen = false)}>Geothermie Atlas</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/contact" on:click={() => (dropdownOpen = false)}>IRIS</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/contact" on:click={() => (dropdownOpen = false)}>IRIS</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:text-red" href="/contact" on:click={() => (dropdownOpen = false)}>Multithematische Karte</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/contact" on:click={() => (dropdownOpen = false)}>Multithematische Karte</DropdownItem>
                 </Dropdown>
             
 
-            <NavLi href="#contact" class="mr-6 text-sm font-semibold hover:text-red">{$t("nav.contact")}</NavLi>
+            <NavLi href="#contact" class="mr-6 text-sm hover:font-bold">{$t("nav.contact")}</NavLi>
 
             <NavLi class="cursor-pointer relative">
-                <span class="border-l-2 border-dark-blue-green pl-5 py-1 text-sm font-semibold">
+                <span class="border-l-2 border-dark-blue-green pl-5 py-1 text-sm hover:font-bold">
                     {currentLocale.toUpperCase()}
                 </span>
                 <ChevronDownOutline class="w-6 h-6 inline" /></NavLi>
                 <Dropdown class="w-22 z-20 rounded-none bg-blue-grey border-2 border-dark-grey p-0 absolute top-full mt-2">
                     {#each locales as l}
-                        <DropdownItem on:click={() => selectLocale(l)} class="hover:bg-white hover:text-red cursor-pointer">
+                        <DropdownItem on:click={() => selectLocale(l)} class="hover:bg-white hover:font-bold cursor-pointer">
                             {l.toUpperCase()}
                         </DropdownItem>
                     {/each}

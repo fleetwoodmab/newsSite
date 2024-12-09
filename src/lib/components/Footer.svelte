@@ -36,7 +36,7 @@
       <FooterLinkGroup class="flex flex-col items-center md:items-start">
         <span class="mb-4 text-sm text-white">Geosphere Austria <br> 1190 Wien, Hohe Warte 38</span>
         <FooterLinkGroup class="text-xs text-white grid grid-cols-1 sm:grid-cols-2 gap-y-5 mt-8 ">
-          <li class="mb-4 pr-2 border-r-2 border-lime-green"><a href="">{$t("nav.dtcontact")}</a></li>
+          <li class="mb-4 pr-2 border-r-2 border-lime-green hober:decoration-solid"><a href="">{$t("nav.dtcontact")}</a></li>
           <li class="mb-4 pl-2"><a href="">{$t("nav.prsscontact")}</a></li>
         </FooterLinkGroup>
       </FooterLinkGroup>

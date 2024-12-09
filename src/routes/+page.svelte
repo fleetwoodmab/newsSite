@@ -2,6 +2,7 @@
     import { AccordionItem, Accordion, ImagePlaceholder } from 'flowbite-svelte';
     import { t } from "$lib/translations/i18n";
     import { AngleDownOutline, AngleUpOutline } from 'flowbite-svelte-icons';
+    import HomeNews from '$lib/components/HomeNews.svelte';
 </script>
 
 <!-- Presentation Section -->
@@ -17,7 +18,7 @@
 
 <!-- News Accordion Section -->
 <section class="max-w-screen-lg mx-auto mb-20">
-    <h2 class="text-2xl font-bold mb-8 text-dark-blue-green">News</h2>
+    <!-- <h2 class="text-2xl font-bold mb-8 text-dark-blue-green">News</h2>
     <Accordion class="border-dark-grey border-t-4 mr-32"> 
         <AccordionItem class="accordion-item" defaultClass="flex items-center justify-between w-full font-medium text-left group-first:rounded-none bg-blue-grey" activeClass="inherit bg-white border-b-0">
             <span slot="header" class="text-light-grey text-xs">09.10.2024 <span class="ml-20 text-dark-blue-green text-base">THESAURUS - Aktualisierung</span> </span>
@@ -49,7 +50,8 @@
                 <AngleUpOutline class="h-6 w-6 -me-0.5" />
             </div>
         </AccordionItem>
-    </Accordion>
+    </Accordion> -->
+    <HomeNews/>
 </section>
 
 <!-- Services Section -->

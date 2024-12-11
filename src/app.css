@@ -28,7 +28,7 @@ body {
 }
 
 .accordion-item {
-    border-top: 2px solid darkgrey; 
+    border-top: 1px solid #9babaf; 
 }
 
 input::placeholder{

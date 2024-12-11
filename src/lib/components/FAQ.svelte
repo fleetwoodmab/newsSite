@@ -43,7 +43,7 @@
     );
   </script>
   
-  <div class="w-full max-w-4xl mx-auto mb-5 border-grey border-4 p-8 top-3 relative" style="clip-path: polygon(-0.11% -0.35%, 13.67% -0.74%, 13.68% 11px, 19.97% 11px, 20.08% -1.21%, 100% -1.45%, 100% 100%, 0px 100%)">
+  <div class="w-full max-w-5xl mx-auto mb-5 border-grey border-4 p-8 top-3 relative" style="clip-path: polygon(-0.11% -0.35%, 11.92% -2.79%, 12.02% 15px, 17.43% 14px, 17.44% -1.21%, 100% -1.45%, 100% 100%, 0px 100%)">
     <Input
       id="small-input"
       type="text"

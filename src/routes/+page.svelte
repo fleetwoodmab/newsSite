@@ -10,7 +10,7 @@
     <div class="flex flex-col sm:flex-row w-full max-w-4xl mx-auto ml-0"> 
         <img src="/pic.png" alt="" class="h-48 border-2 p-2">
         <div class="flex-grow mt-6 sm:mt-0 sm:ml-8 text-center sm:text-justify">
-            <h1 class="text-3xl mb-5 font-semibold text-dark-blue-green">Geoinformation test</h1>
+            <h1 class="text-3xl mb-5 font-semibold text-dark-blue-green">Geoinformation test 2</h1>
             <p class="text-md text-light-grey">{$t("homepage.description")}</p>
         </div>
     </div>    

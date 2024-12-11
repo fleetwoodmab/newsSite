@@ -12,6 +12,7 @@
         news: [
           { date: "09.10.2024", title: "THESAURUS - Aktualisierung", content: "Details about THESAURUS update." },
           { date: "08.10.2024", title: "TETHYS - neue Release", content: "Details about TETHYS release." },
+          { date: "07.05.2024", title: "TETHYS - Datenzugriff via API", content: "Details about TETHYS API access." },
         ],
       },
       {
@@ -34,7 +35,7 @@
 
     <!-- Accordion Content -->
     <div class="flex-1 p-4">
-      <Accordion class="border-dark-grey border-t-4 mr-32">
+      <Accordion class="border-dark-grey border-t-4">
         {#each tabScreens[activeTab].news as newsItem}
           <AccordionItem
             class="accordion-item pr-0 py-0"

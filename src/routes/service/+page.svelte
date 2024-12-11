@@ -53,7 +53,7 @@
         {/each}
       </ul>
     {:else}
-      <p>No features found.</p>
+      <p>No features found </p>
     {/if}
   </div>
 </main>

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Inter';
+	src: url('/Inter.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: normal;
+}
+
+html {
+	font-family: 'Inter', sans-serif;
+	scroll-behavior: smooth;
+}
+
+
+#mainNav {
+    background: linear-gradient(180deg, #BFCE40 25%, white 0 100%);
+    padding-top: 4rem;
+    padding-bottom: 1rem;		
+}
+
+body {
+	margin: 0;
+	background: #fff;
+	height: 100%;
+}
+
+.accordion-item {
+    border-top: 2px solid darkgrey; 
+}
+
+input::placeholder{
+	color: #5a5a5a;
+}
+
+@media (min-width: 768px) {	.md\:hover\:text-primary-700:hover {
+	  color: inherit !important; }
+}
+
+
+

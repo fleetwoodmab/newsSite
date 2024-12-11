@@ -16,6 +16,7 @@ export default {
         "blue-grey": '#e6eaeb',
         "dark-grey": '#adbabe',
         'light-grey':'#5a5a5a',
+        'accent-grey':'#9babaf',
         'red':'#E7343F',
         'teal':'#3692BC',
         // flowbite-svelte

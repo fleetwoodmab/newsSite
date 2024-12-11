@@ -31,7 +31,7 @@
     <h1>{$t("homepage.title")}!</h1>
     <p>{@html $t("homepage.welcome", { name: "Jane Doe" })}!</p>
 
-    <br>
+    <br> 
     <hr>
 
     <h1 class="mb-4 text-3xl">Service Information</h1>

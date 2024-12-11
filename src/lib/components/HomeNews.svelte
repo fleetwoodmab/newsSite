@@ -12,21 +12,21 @@
         news: [
           { date: "09.10.2024", title: "THESAURUS - Aktualisierung", content: "Details about THESAURUS update." },
           { date: "08.10.2024", title: "TETHYS - neue Release", content: "Details about TETHYS release." },
-          { date: "07.05.2024", title: "TETHYS - Datenzugriff via API", content: "Details about TETHYS API access." },
+          { date: "07.05.2024", title: "TETHYS - Datenzugriff via API", content: "Details about TETHYS API." },
         ],
       },
       {
         id: 1,
         news: [
-          { date: "07.10.2024", title: "GEOSPHERE MAPS - neue Version", content: "Details about GEOSPHERE maps." },
-          { date: "03.06.2024", title: "TETHYS - Übersiedlung auf neue Domäne", content: "Details about TETHYS domain migration." },
+          { date: "07.10.2024", title: "GEOSPHERE MAPS - neue Version", content: "Details about GEOSPHERE MAPS." },
+          { date: "03.06.2024", title: "TETHYS - Übersiedlung auf neue Domäne", content: "Details about TETHYS domain." },
         ],
       },
       {
         id: 2,
         news: [
-          { date: "07.05.2024", title: "TETHYS - Datenzugriff via API", content: "Details about TETHYS API access." },
-          { date: "01.05.2024", title: "THESAURUS - Datenbank Update", content: "Details about THESAURUS database update." },
+          { date: "07.05.2024", title: "TETHYS - Datenzugriff via API", content: "Details about TETHYS API." },
+          { date: "01.05.2024", title: "THESAURUS - Datenbank Update", content: "Details about THESAURUS update." },
         ],
       },
     ];
@@ -68,7 +68,7 @@
       </Accordion>
     </div>
   
-    <!-- Side Tabs (Moved to the Right) -->
+    <!-- Side Tabs 'Nav' -->
     <div class="flex flex-col w-16 items-center space-y-4 py-4">
       {#each tabScreens as tab, index}
         <button

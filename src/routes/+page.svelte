@@ -5,7 +5,7 @@
     import HomeNews from '$lib/components/HomeNews.svelte';
 </script>
 
-<!-- Presentation Section -->
+<!-- Hero Section -->
 <section class="mt-20 max-w-screen-lg mx-auto mb-20">
     <div class="flex flex-col sm:flex-row w-full max-w-4xl mx-auto ml-0"> 
         <img src="/pic.png" alt="" class="h-48 border-2 p-2">

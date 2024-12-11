@@ -46,28 +46,28 @@
       <h2 class="text-sm font-semibold uppercase text-white">Social Media</h2>
 
       <FooterLinkGroup class="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-y-4">
-        <FooterIcon href="https://www.instagram.com/GeoSphere_AT" class="flex items-center space-x-2">
-          <img src="instagram.svg" alt="Instagram Icon" class="w-7 h-7 hover:scale-75 duration-150 ease-out hover:ease-in duration-150 ease-out hover:ease-in" />
+        <FooterIcon href="https://www.instagram.com" class="flex items-center space-x-2">
+          <img src="instagram.svg" alt="Instagram Icon" class="w-7 h-7 hover:fill-white" />
           <span class="text-white hover:underline">Instagram</span>
         </FooterIcon>
-        <FooterIcon href="https://x.com/GeoSphere_AT" class="flex items-center space-x-2 ml-6">
-          <img src="x.svg" alt="X Icon" class="w-7 h-7 hover:scale-75 duration-150 ease-out hover:ease-in" />
+        <FooterIcon href="https://www.x.com" class="flex items-center space-x-2 ml-6">
+          <img src="x.svg" alt="X Icon" class="w-7 h-7 hover:fill-white" />
           <span class="text-white hover:underline">X</span>
         </FooterIcon>
-        <FooterIcon href="https://www.youtube.com/@geosphereaustria2023" class="flex items-center space-x-2 ml-6">
-          <img src="youtube.svg" alt="Youtube Icon" class="w-7 h-7 hover:scale-75 duration-150 ease-out hover:ease-in" />
+        <FooterIcon href="https://www.youtube.com" class="flex items-center space-x-2 ml-6">
+          <img src="youtube.svg" alt="Youtube Icon" class="w-7 h-7 hover:fill-white" />
           <span class="text-white hover:underline">Youtube</span>
         </FooterIcon>
-        <FooterIcon href="https://www.facebook.com/GeoSphere.at" class="flex items-center space-x-2">
-          <img src="facebook.svg" alt="Facebook Icon" class="w-7 h-7 hover:scale-75 duration-150 ease-out hover:ease-in" />
+        <FooterIcon href="https://www.facebook.com" class="flex items-center space-x-2">
+          <img src="facebook.svg" alt="Facebook Icon" class="w-7 h-7 hover:fill-white" />
           <span class="text-white hover:underline">Facebook</span>
         </FooterIcon>
-        <FooterIcon href="https://at.linkedin.com/company/geosphereaustria" class="flex items-center space-x-2 ml-6">
-          <img src="linkedin.svg" alt="LinkedIn Icon" class="w-7 h-7 hover:scale-75 duration-150 ease-out hover:ease-in" />
+        <FooterIcon href="https://www.linkedin.com" class="flex items-center space-x-2 ml-6">
+          <img src="linkedin.svg" alt="LinkedIn Icon" class="w-7 h-7 hover:fill-white" />
           <span class="text-white hover:underline">LinkedIn</span>
         </FooterIcon>
-        <FooterIcon href="https://www.flickr.com/photos/geosphere_austria" class="flex items-center space-x-2 ml-6">
-          <img src="flickr.svg" alt="Flickr Icon" class="w-7 h-7 hover:scale-75 duration-150 ease-out hover:ease-in" />
+        <FooterIcon href="https://www.flickr.com" class="flex items-center space-x-2 ml-6">
+          <img src="flickr.svg" alt="Flickr Icon" class="w-7 h-7 hover:fill-white" />
           <span class="text-white hover:underline">Flickr</span>
         </FooterIcon>
       </FooterLinkGroup>

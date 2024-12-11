@@ -6,7 +6,7 @@
     export let onTabChange; 
   </script>
   
-  <div class="flex w-full max-w-5xl mx-auto mt-20">
+  <div class="flex w-full max-w-4xl mx-auto mt-20">
     <ul class="flex flex-wrap -mb-px">
       {#each tabs as tab}
         <li class="mr-2">

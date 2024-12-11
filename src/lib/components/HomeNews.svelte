@@ -22,18 +22,18 @@
         news: [
           { date: "09.10.2024", title: "THESAURUS - Aktualisierung", content: "Details about THESAURUS update." },
           { date: "08.10.2024", title: "TETHYS - neue Release", content: "Details about TETHYS release." },
+          { date: "08.10.2024", title: "TETHYS - neue Release", content: "Details about TETHYS release." },
           { date: "07.05.2024", title: "TETHYS - Datenzugriff via API", content: "Details about TETHYS API." },
           { date: "09.10.2024", title: "THESAURUS - Aktualisierung", content: "Details about THESAURUS update." },
-          { date: "08.10.2024", title: "TETHYS - neue Release", content: "Details about TETHYS release." },
         ],
       },
       {
         id: 2,
         news: [
           { date: "09.10.2024", title: "THESAURUS - Aktualisierung", content: "Details about THESAURUS update." },
+          { date: "09.10.2024", title: "THESAURUS - Aktualisierung", content: "Details about THESAURUS update." },
           { date: "08.10.2024", title: "TETHYS - neue Release", content: "Details about TETHYS release." },
           { date: "07.05.2024", title: "TETHYS - Datenzugriff via API", content: "Details about TETHYS API." },
-          { date: "09.10.2024", title: "THESAURUS - Aktualisierung", content: "Details about THESAURUS update." },
           { date: "08.10.2024", title: "TETHYS - neue Release", content: "Details about TETHYS release." },
         ],
       },

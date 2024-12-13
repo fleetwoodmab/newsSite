@@ -1,5 +1,10 @@
 export default {
     en: {
+
+
+
+
+
       "nav.contact":"Contact",
       "nav.dtcontact":"Detailed Contact Page",
       "nav.prsscontact":"Press Contact",
@@ -13,6 +18,15 @@ export default {
       "tethys.desc":"Through Tethys RDR, research data generated within the organisation is published as open data and in accordance with the FAIR principles.",
     },
     de: {
+
+
+
+
+
+
+
+
+
       "nav.contact":"Kontakt",
       "nav.dtcontact":"Detaillirte Kontaktseite",
       "nav.prsscontact":"Presse Kontakte",

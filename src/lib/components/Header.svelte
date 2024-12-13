@@ -23,7 +23,7 @@
             <span class="place-self-start ml-4 text-2xl font-semibold whitespace-nowrap sm:inline">GeoInformation Services</span>
         </NavBrand>
 
-        <NavUl classUl="flex items-center pb-0 w-full justify-end gap-[4.5rem] pr-8 ">
+        <NavUl classUl="flex items-center pb-0 w-full justify-end gap-9 pr-8 ">
             <NavLi class="cursor-pointer mr-6 text-base relative hover:font-bold">
                 Services<ChevronDownOutline class="w-6 h-6 inline" /></NavLi>
                 <Dropdown class="w-44 z-20 p-0 rounded-none text-base hover:font-bold bg-blue-grey border-2 border-dark-grey absolute top-full mt-2 ml-[-90px]" bind:open={dropdownOpen}>

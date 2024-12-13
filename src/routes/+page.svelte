@@ -20,52 +20,18 @@
 <!-- News Accordion Section -->
 <section class="max-w-screen-lg mx-auto mb-20">
    
-    <!-- 
-    <h2 class="text-2xl font-bold mb-8 text-dark-blue-green">News</h2>
-    <Accordion class="border-dark-grey border-t-4 mr-32"> 
-        <AccordionItem class="accordion-item" defaultClass="flex items-center justify-between w-full font-medium text-left group-first:rounded-none bg-blue-grey" activeClass="inherit bg-white border-b-0">
-            <span slot="header" class="text-light-grey text-xs">09.10.2024 <span class="ml-20 text-dark-blue-green text-base">THESAURUS - Aktualisierung</span> </span>
-            <div slot="arrowdown">
-                <AngleDownOutline class="h-6 w-6 -me-0.5" />
-            </div>
-            <div slot="arrowup">
-                <AngleUpOutline class="h-6 w-6 -me-0.5" />
-            </div>
-            <p class="text-light-grey ml-36 text-sm mt-[-20px]">Blablabla</p>
-        </AccordionItem>
-        <AccordionItem class="accordion-item" defaultClass="flex items-center justify-between w-full font-medium text-left group-first:rounded-none bg-blue-grey" activeClass="inherit bg-white border-b-0">
-            <span slot="header" class="text-light-grey text-xs">09.10.2024 <span class="ml-20 text-dark-blue-green text-base">THESAURUS - Aktualisierung</span> </span>
-            <div slot="arrowdown">
-                <AngleDownOutline class="h-6 w-6 -me-0.5" />
-            </div>
-            <div slot="arrowup">
-                <AngleUpOutline class="h-6 w-6 -me-0.5" />
-            </div>
-            <p class="text-light-grey ml-36 text-sm mt-[-20px]">Blablabla</p>
-        </AccordionItem>
-        <AccordionItem class="accordion-item" defaultClass="flex items-center justify-between w-full font-medium text-left group-first:rounded-none bg-blue-grey" activeClass="inherit bg-white border-b-0" paddingFlush="pb-0">
-            <span slot="header" class="text-light-grey text-xs">09.10.2024 <span class="ml-20 text-dark-blue-green text-base">THESAURUS - Aktualisierung</span> </span>
-            <p class="text-light-grey ml-36 text-sm mt-[-20px]">Blablabla</p>
-            <div slot="arrowdown">
-                <AngleDownOutline class="h-6 w-6 -me-0.5" />
-            </div>
-            <div slot="arrowup">
-                <AngleUpOutline class="h-6 w-6 -me-0.5" />
-            </div>
-        </AccordionItem>
-    </Accordion> -->
     <HomeNews/>
 </section>
 
 <!-- Services Section -->
 <section class="bg-blue-grey pt-20 pb-40">
     <div class="grid grid-cols-1 sm:grid-cols-3 mx-auto max-w-screen-lg">
-        <h2 class="text-2xl col-span-3 mb-8 text-left font-bold text-dark-blue-green">Services</h2> 
+        <h2 class="text-2xl col-span-3 mb-20 text-left font-bold text-dark-blue-green">Services</h2> 
 
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-[6.5rem] col-span-3 justify-center items-center"> 
-            <ImagePlaceholder imgOnly size='xxl' class="animate-none" />
-            <ImagePlaceholder imgOnly size='xxl' class="animate-none" />
-            <ImagePlaceholder imgOnly size='xxl' class="animate-none" />
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 col-span-3"> 
+            <img src="tethysHome.png" alt="">
+            <img src="geosphereMaps.png" alt="">
+            <img src="thesaurus.png" alt="">
         </div>
     </div>
 </section>

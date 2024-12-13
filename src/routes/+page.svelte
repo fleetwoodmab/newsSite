@@ -62,7 +62,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-3 mx-auto max-w-screen-lg">
         <h2 class="text-2xl col-span-3 mb-8 text-left font-bold text-dark-blue-green">Services</h2> 
 
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 col-span-3 justify-center items-center"> 
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-[6.5rem] col-span-3 justify-center items-center"> 
             <ImagePlaceholder imgOnly size='xxl' class="animate-none" />
             <ImagePlaceholder imgOnly size='xxl' class="animate-none" />
             <ImagePlaceholder imgOnly size='xxl' class="animate-none" />

@@ -31,7 +31,7 @@
                     <DropdownDivider class="bg-dark-grey my-0" />
                     <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/tethys" on:click={() => (dropdownOpen = false)}>Tethys RDR</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/about" on:click={() => (dropdownOpen = false)}>Geodatenkatalog</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/about" on:click={() => (dropdownOpen = false)}>Thesaurus</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
                     <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/contact" on:click={() => (dropdownOpen = false)}>Geothermie Atlas</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />

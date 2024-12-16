@@ -9,7 +9,7 @@
 <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-stretch justify-items-center py-12 px-10 bg-light-blue-green">
     <p class="text-left text-2xl font-semibold max-w-[100px] w-full ml-10 sm:text-center md:text-left">Department Geoinformation</p>
     
-    <div class="sm:text-center md:text-left -ml-52">
+    <div class="sm:text-center md:text-left mr-64">
       <h2 class="mb-6 text-xl font-semibold">{$t("nav.contact")}</h2>
       <div class="flex flex-col items-center md:items-start">
         <p class="mb-4 text-sm">Standort Neulingasse 38, <br> 1030 Wien</p>
@@ -35,9 +35,9 @@
       <h2 class="mb-6 text-xl font-semibold text-white">{$t("nav.contact")}</h2>
       <FooterLinkGroup class="flex flex-col items-center md:items-start">
         <span class="mb-4 text-sm text-white">Geosphere Austria <br> 1190 Wien, Hohe Warte 38</span>
-        <FooterLinkGroup class="text-xs text-white grid grid-cols-1 sm:grid-cols-2 gap-y-5 mt-8 ">
-          <li class="mb-4 pr-2 border-r-2 border-lime-green hober:decoration-solid"><a href="">{$t("nav.dtcontact")}</a></li>
-          <li class="mb-4 pl-2"><a href="">{$t("nav.prsscontact")}</a></li>
+        <FooterLinkGroup class="text-sm text-white grid grid-cols-1 sm:grid-cols-2 gap-y-5 mt-8 ">
+          <li class="mb-4 pr-2 border-r-2 border-lime-green hober:decoration-solid"><a href="https://geosphere.at/en/about-us/contact-and-visit">{$t("nav.dtcontact")}</a></li>
+          <li class="mb-4 pl-2"><a href="https://beta.geosphere.at/en/about-us/media">{$t("nav.prsscontact")}</a></li>
         </FooterLinkGroup>
       </FooterLinkGroup>
     </div>
@@ -72,11 +72,11 @@
         </FooterIcon>
       </FooterLinkGroup>
       
-      <ul class="text-xs flex flex-wrap">
-        <li class="border-r-2 border-lime-green pr-2">Impressum</li>
-        <li class="border-r-2 border-lime-green px-2">{$t("nav.data")}</li>
-        <li class="border-r-2 border-lime-green px-2">Legal</li>
-        <li class="pl-2">{$t("nav.access")}</li>
+      <ul class="text-sm flex flex-wrap">
+        <li class="border-r-2 border-lime-green hover:underline pr-2"><a href="https://beta.geosphere.at/de/impressum">Impressum</a></li>
+        <li class="border-r-2 border-lime-green hover:underline px-2"><a href="https://geosphere.at/en/privacy">{$t("nav.data")}</a></li>
+        <li class="border-r-2 border-lime-green hover:underline px-2"><a href="https://geosphere.at/en/legal">Legal</a></li>
+        <li class="pl-2 hover:underline"><a href="https://geosphere.at/de/accessibility">{$t("nav.access")}</a></li> 
       </ul>
     </div>
   

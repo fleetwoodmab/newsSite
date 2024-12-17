@@ -45,7 +45,7 @@
               throw new Error(`No news available for language: ${language}`);
           }
       } catch (error) {
-          console.error('Error fetching news data:', error);
+          console.error('Error fetching news:', error);
           errorMessage = error.message;
       }
   }
@@ -58,7 +58,7 @@
   <div class="flex-1 flex flex-col">
 
     {#if errorMessage}
-      <p class="text-red-500">Error: {errorMessage}</p>
+      <p>Error: {errorMessage}</p>
     {:else if news.length > 0}
 
       <div class="flex-1 my-4 max-h-[400px] overflow-y-auto">

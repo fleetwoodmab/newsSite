@@ -3,7 +3,6 @@
     import { ChevronDownOutline } from 'flowbite-svelte-icons';
     import { page } from '$app/stores';
     import { locale, locales, t } from '$lib/translations/i18n';
-    $: activeUrl = $page.url.pathname;
 
     let currentLocale; 
     $: currentLocale = $locale;

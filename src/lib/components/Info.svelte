@@ -16,14 +16,14 @@
     async function fetchContent(language) {
         try {
             if (!infoFetchUrl) {
-                throw new Error('Fetch URL not provided');
+                throw new Error('Fetch URL missing');
             }
   
             const response = await fetch(infoFetchUrl);
   
             if (!response.ok) {
                 const errorText = await response.text();
-                throw new Error(`Network response was not ok: ${errorText}`);
+                throw new Error(`Network response not ok: ${errorText}`);
             }
   
             const data = await response.json();
@@ -38,7 +38,7 @@
                 throw new Error(`No content available for language: ${language}`);
             }
         } catch (error) {
-            console.error('Error fetching data:', error);
+            console.error('Error fetching content:', error);
             errorMessage = error.message;
         }
     }
@@ -48,7 +48,7 @@
     style="clip-path: polygon(-0.11% -0.35%, 6.87% -1.94%, 6.79% 13px, 11.37% 14px, 11.28% -2.44%, 100% -1.45%, 100% 100%, 0px 100%)">
   
     {#if errorMessage}
-        <p class="text-red-500">Error: {errorMessage}</p>
+        <p>Error: {errorMessage}</p>
     {:else if contentItem}
         <div>
             {@html contentItem}

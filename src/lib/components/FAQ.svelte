@@ -7,9 +7,13 @@
 
   export let faqFetchUrl;
 
+  export let accentColour;
+
   let searchTerm = "";
   let faqItems = [];
   let errorMessage = '';
+
+
 
   let currentLocale = get(locale);
   $: locale.subscribe(value => currentLocale = value);
@@ -68,11 +72,11 @@
   <hr class="mt-4">
 
   {#if errorMessage}
-      <p class="text-red-500">Error: {errorMessage}</p>
+      <p>Error: {errorMessage}</p>
   {:else if faqItems.length > 0}
       <Accordion flush activeClass="text-lime-green">
           {#each filteredFaqItems as item}
-              <AccordionItem class="text-sm font-bold hover:text-teal">
+              <AccordionItem class="text-sm font-bold hover:{accentColour}">
                   <span slot="header" class="pl-1">{item.title}</span>
                   <div slot="arrowup">
                       <MinusOutline class="" />
@@ -102,7 +106,7 @@
   
   <!-- accordion in case need of sub-accordions
       {#if errorMessage}
-      <p class="text-red-500">Error: {errorMessage}</p>
+      <p>Error: {errorMessage}</p>
     {:else if faqItems.length > 0}
       <Accordion flush activeClass="text-lime-green">
         {#each filteredFaqItems as item}
@@ -110,7 +114,7 @@
             <span slot="header" class="pl-1">{item.title}</span>
             <Accordion flush class="mt-[-10px] pl-3">
               <AccordionItem class="py-4">
-                <span slot="header" class="text-xs hover:text-teal">{item.title}</span>
+                <span slot="header" class="text-xs hover:{accentColour}">{item.title}</span>
                 <p class="mb-2 font-light pl-3 text-xs">{item.content}</p>
               </AccordionItem>
             </Accordion>

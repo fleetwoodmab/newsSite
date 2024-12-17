@@ -1,6 +1,6 @@
 <script>
-    import { t } from '$lib/translations/i18n';
-  import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon, A } from 'flowbite-svelte';
+  import { t } from '$lib/translations/i18n';
+  import { Footer, FooterLinkGroup, FooterIcon } from 'flowbite-svelte';
   import { EnvelopeOutline, PhoneOutline } from 'flowbite-svelte-icons';
 </script>
 

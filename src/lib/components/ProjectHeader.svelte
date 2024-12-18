@@ -104,7 +104,7 @@
           {/if}
   
           <a
-          href="{linkHref}"
+          href="en.wikipedia.org"
           target="_blank"
           class={clsx('underline pt-16 flex absolute bottom-0 hover:font-semibold ', accentColour)}
           >

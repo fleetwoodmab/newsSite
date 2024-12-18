@@ -103,13 +103,13 @@
             <p>Loading description...</p>
           {/if}
   
-          <a
+          <!-- <a
           href="en.wikipedia.org"
           target="_blank"
           class={clsx('underline pt-16 flex absolute bottom-0 hover:font-semibold ', accentColour)}
           >
           {linkHref}
-        </a>
+        </a> -->
 
         </div>
       </div>

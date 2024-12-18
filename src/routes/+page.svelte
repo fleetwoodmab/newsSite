@@ -61,8 +61,8 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 col-span-3 pb-10 text-center"> 
             <a href="/tethys" class="hover:scale-95 duration-150 ease-out hover:ease-in"><img src="{tethysImg}" alt="" class="border-2 p-2 border-dark-grey"><span class="pt-2">Tethys RDR</span></a>
-            <a href="/geospheremaps" class="hover:scale-95 duration-150 ease-out hover:ease-in"><img src="{geomapsImg}" alt="" class="border-2 p-2 border-dark-grey"><span>GeoSphere Maps</span></a>
-            <a href="/thesaurus" class="hover:scale-95 duration-150 ease-out hover:ease-in"><img src="{thesauImg}" alt="" class="border-2 p-2 border-dark-grey"><span>Thesaurus</span></a>
+            <a href="/tethys" class="hover:scale-95 duration-150 ease-out hover:ease-in"><img src="{geomapsImg}" alt="" class="border-2 p-2 border-dark-grey"><span>GeoSphere Maps</span></a>
+            <a href="/tethys" class="hover:scale-95 duration-150 ease-out hover:ease-in"><img src="{thesauImg}" alt="" class="border-2 p-2 border-dark-grey"><span>Thesaurus</span></a>
         </div>
     </div>
 </section>

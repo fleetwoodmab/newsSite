@@ -12,6 +12,7 @@
   <ul class="flex flex-wrap -mb-px">
     {#each tabs as tab}
       <li class="mr-2">
+        <!-- svelte-ignore a11y-invalid-attribute -->
         <a href="#" 
         class={clsx(
           'inline-block py-2 px-2 border-b-0 relative z-2 top-3 border-grey',  

@@ -784,7 +784,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
                       $$result,
                       {
                         class: "font-semibold text-xs hover:bg-white hover:font-bold",
-                        href: "/geospheremaps"
+                        href: "./geospheremaps"
                       },
                       {},
                       {
@@ -796,7 +796,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
                       $$result,
                       {
                         class: "font-semibold text-xs hover:bg-white hover:font-bold",
-                        href: "/tethys"
+                        href: "./tethys"
                       },
                       {},
                       {
@@ -808,7 +808,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
                       $$result,
                       {
                         class: "font-semibold text-xs hover:bg-white hover:font-bold",
-                        href: "/thesaurus"
+                        href: "./thesaurus"
                       },
                       {},
                       {
@@ -820,7 +820,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
                       $$result,
                       {
                         class: "font-semibold text-xs hover:bg-white hover:font-bold",
-                        href: "/geothermieatlas"
+                        href: "./geothermieatlas"
                       },
                       {},
                       {
@@ -832,7 +832,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
                       $$result,
                       {
                         class: "font-semibold text-xs hover:bg-white hover:font-bold",
-                        href: "/iris"
+                        href: "./iris"
                       },
                       {},
                       {
@@ -844,7 +844,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
                       $$result,
                       {
                         class: "font-semibold text-xs hover:bg-white hover:font-bold",
-                        href: "/multithematischekarte"
+                        href: "./multithematischekarte"
                       },
                       {},
                       {

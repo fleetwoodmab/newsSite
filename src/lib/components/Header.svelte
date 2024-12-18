@@ -26,17 +26,17 @@
             <NavLi class="cursor-pointer mr-6 text-base relative hover:font-bold">
                 Services<ChevronDownOutline class="w-6 h-6 inline" /></NavLi>
                 <Dropdown class="w-44 z-20 p-0 rounded-none text-base hover:font-bold bg-blue-grey border-2 border-dark-grey absolute top-full mt-2 ml-[-90px]" bind:open={dropdownOpen}>
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/geospheremaps" on:click={() => (dropdownOpen = false)}>GeoSphere Maps</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="./geospheremaps" on:click={() => (dropdownOpen = false)}>GeoSphere Maps</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/tethys" on:click={() => (dropdownOpen = false)}>Tethys RDR</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="./tethys" on:click={() => (dropdownOpen = false)}>Tethys RDR</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/thesaurus" on:click={() => (dropdownOpen = false)}>Thesaurus</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="./thesaurus" on:click={() => (dropdownOpen = false)}>Thesaurus</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/geothermieatlas" on:click={() => (dropdownOpen = false)}>Geothermie Atlas</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="./geothermieatlas" on:click={() => (dropdownOpen = false)}>Geothermie Atlas</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/iris" on:click={() => (dropdownOpen = false)}>IRIS</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="./iris" on:click={() => (dropdownOpen = false)}>IRIS</DropdownItem>
                     <DropdownDivider class="bg-dark-grey my-0" />
-                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="/multithematischekarte" on:click={() => (dropdownOpen = false)}>Multithematische Karte</DropdownItem>
+                    <DropdownItem class="font-semibold text-xs hover:bg-white hover:font-bold" href="./multithematischekarte" on:click={() => (dropdownOpen = false)}>Multithematische Karte</DropdownItem>
                 </Dropdown>
             
 

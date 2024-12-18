@@ -1,0 +1,210 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_AngleUpOutline.js": {
+    "file": "chunks/AngleUpOutline.js",
+    "name": "AngleUpOutline",
+    "imports": [
+      "_ssr.js",
+      "_index.js",
+      "_i18n.js"
+    ]
+  },
+  "_Breadcrumbs.js": {
+    "file": "chunks/Breadcrumbs.js",
+    "name": "Breadcrumbs",
+    "imports": [
+      "_ssr.js",
+      "_AngleUpOutline.js",
+      "_i18n.js",
+      "_Wrapper.js",
+      "_stores.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Breadcrumbs.BHcUqV_k.css"
+    ]
+  },
+  "_Wrapper.js": {
+    "file": "chunks/Wrapper.js",
+    "name": "Wrapper",
+    "imports": [
+      "_ssr.js",
+      "_i18n.js"
+    ]
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_i18n.js": {
+    "file": "chunks/i18n.js",
+    "name": "i18n",
+    "imports": [
+      "_ssr.js",
+      "_index.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "name": "stores",
+    "imports": [
+      "_ssr.js",
+      "_client.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_i18n.js",
+      "_index.js",
+      "_Wrapper.js",
+      "_client.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.DahEIV1J.css"
+    ]
+  },
+  "src/routes/+layout.ts": {
+    "file": "entries/pages/_layout.ts.js",
+    "name": "entries/pages/_layout.ts",
+    "src": "src/routes/+layout.ts",
+    "isEntry": true
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_i18n.js",
+      "_AngleUpOutline.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BHAqo-cc.css"
+    ]
+  },
+  "src/routes/+page.ts": {
+    "file": "entries/pages/_page.ts.js",
+    "name": "entries/pages/_page.ts",
+    "src": "src/routes/+page.ts",
+    "isEntry": true
+  },
+  "src/routes/geospheremaps/+page.svelte": {
+    "file": "entries/pages/geospheremaps/_page.svelte.js",
+    "name": "entries/pages/geospheremaps/_page.svelte",
+    "src": "src/routes/geospheremaps/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Breadcrumbs.js"
+    ]
+  },
+  "src/routes/geothermieatlas/+page.svelte": {
+    "file": "entries/pages/geothermieatlas/_page.svelte.js",
+    "name": "entries/pages/geothermieatlas/_page.svelte",
+    "src": "src/routes/geothermieatlas/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Breadcrumbs.js"
+    ]
+  },
+  "src/routes/iris/+page.svelte": {
+    "file": "entries/pages/iris/_page.svelte.js",
+    "name": "entries/pages/iris/_page.svelte",
+    "src": "src/routes/iris/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Breadcrumbs.js"
+    ]
+  },
+  "src/routes/multithematischekarte/+page.svelte": {
+    "file": "entries/pages/multithematischekarte/_page.svelte.js",
+    "name": "entries/pages/multithematischekarte/_page.svelte",
+    "src": "src/routes/multithematischekarte/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Breadcrumbs.js"
+    ]
+  },
+  "src/routes/tethys/+page.svelte": {
+    "file": "entries/pages/tethys/_page.svelte.js",
+    "name": "entries/pages/tethys/_page.svelte",
+    "src": "src/routes/tethys/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Breadcrumbs.js"
+    ]
+  },
+  "src/routes/thesaurus/+page.svelte": {
+    "file": "entries/pages/thesaurus/_page.svelte.js",
+    "name": "entries/pages/thesaurus/_page.svelte",
+    "src": "src/routes/thesaurus/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Breadcrumbs.js"
+    ]
+  }
+}

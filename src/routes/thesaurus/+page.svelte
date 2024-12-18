@@ -7,7 +7,7 @@
   import Breadcrumbs from "$lib/components/Breadcrumbs.svelte";
     
   const accentColour = 'lime-green'
-  const linkHref = 'thesaurus-link'
+  const linkHref = 'thesaurus.com'
 
   let activeTab = 'News';
 

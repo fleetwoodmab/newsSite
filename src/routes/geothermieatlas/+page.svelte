@@ -7,7 +7,7 @@
     import Breadcrumbs from "$lib/components/Breadcrumbs.svelte";
       
     const accentColour = 'lime-green'
-    const linkHref = 'geothermieatlas-link'
+    const linkHref = 'geothermieatlas.com'
   
     let activeTab = 'News';
   

@@ -7,7 +7,7 @@
     import Breadcrumbs from "$lib/components/Breadcrumbs.svelte";
       
     const accentColour = 'lime-green'
-    const linkHref = 'iris-link'
+    const linkHref = 'iris.com'
   
     let activeTab = 'News';
   

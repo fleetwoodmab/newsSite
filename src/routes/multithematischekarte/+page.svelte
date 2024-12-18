@@ -7,7 +7,7 @@
     import Breadcrumbs from "$lib/components/Breadcrumbs.svelte";
       
     const accentColour = 'lime-green'
-    const linkHref = 'multithemakarte-link'
+    const linkHref = 'multithemakarte.com'
   
     let activeTab = 'News';
   

@@ -104,9 +104,8 @@
           {/if}
   
           <a
-          href={linkHref}
+          href="{linkHref}"
           target="_blank"
-          rel="noopener noreferrer"
           class={clsx('underline pt-16 flex absolute bottom-0 hover:font-semibold ', accentColour)}
           >
           {linkHref}

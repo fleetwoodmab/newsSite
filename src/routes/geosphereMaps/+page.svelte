@@ -7,7 +7,7 @@
     import Breadcrumbs from "$lib/components/Breadcrumbs.svelte";
       
     const accentColour = 'red'
-    const linkHref = 'geospheremaps.at'
+    const linkHref = 'test.com'
   
     let activeTab = 'News';
   

@@ -1,18 +1,21 @@
 <script>
     import { locale } from "$lib/translations/i18n";
+    import { onMount } from "svelte";
     import { get } from "svelte/store";
 
     export let descFetchUrl;
     export let projImgUrl;
     export let logoSrcUrl;
-    export let accentColour;
     export let linkHref = '';
-
-    console.log("Link Href:", linkHref);
 
     let projImg = "";       
     let logoSrc = "";       
     let description = "";      
+
+    import clsx from 'clsx';
+    export let accentColour = '';
+    console.log(accentColour);
+    
 
     /*------*/
 
@@ -68,6 +71,11 @@
       const data = await response.json();
       logoSrc = data.features[0]?.attributes.Inhalt || ""; 
   }
+
+  onMount(async () => {
+        await fetchProjImage();
+        await fetchLogoImage();
+    });
 </script>
 
 
@@ -99,7 +107,7 @@
           href={linkHref}
           target="_blank"
           rel="noopener noreferrer"
-          class="{accentColour} underline absolute pt-6"
+          class={clsx('underline pt-16 flex absolute bottom-0 hover:font-semibold ', accentColour)}
           >
           {linkHref}
         </a>

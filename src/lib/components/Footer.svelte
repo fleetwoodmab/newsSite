@@ -15,7 +15,7 @@
         <p class="mb-4 text-sm">Standort Neulingasse 38, <br> 1030 Wien</p>
         <ul class="text-sm text-center md:text-left">
           <li class="flex items-center">
-            <EnvelopeOutline class="mr-2" /> gis@geosphere.at
+            <EnvelopeOutline class="mr-2" /> <a href="mailto:gis@geosphere.at" class="hover:underline">gis@geosphere.at</a>
           </li>
           <li class="flex items-center mt-2">
             <PhoneOutline class="mr-2" /> +43 1 7125674

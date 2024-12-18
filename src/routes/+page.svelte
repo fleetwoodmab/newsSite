@@ -1,7 +1,5 @@
 <script lang="ts">
-    import { AccordionItem, Accordion, ImagePlaceholder } from 'flowbite-svelte';
     import { t } from "$lib/translations/i18n";
-    import { AngleDownOutline, AngleUpOutline } from 'flowbite-svelte-icons';
     import HomeNews from '$lib/components/HomeNews.svelte';
     import { onMount } from 'svelte';
 
@@ -57,17 +55,18 @@
 </section>
 
 <!-- Services Section -->
-<section class="bg-blue-grey pt-20 pb-40">
+<section class="bg-blue-grey pt-10 pb-20">
     <div class="grid grid-cols-1 sm:grid-cols-3 mx-auto max-w-screen-lg">
-        <h2 class="text-2xl col-span-3 mb-14 text-left font-bold text-dark-blue-green">Services</h2> 
+        <h2 class="text-2xl col-span-3 mb-10 text-left font-bold text-dark-blue-green">Services</h2> 
 
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 col-span-3"> 
-            <img src="{tethysImg}" alt="">
-            <img src="{geomapsImg}" alt="">
-            <img src="{thesauImg}" alt="">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 col-span-3 pb-10 text-center"> 
+            <a href="/thetys" class="hover:scale-95 duration-150 ease-out hover:ease-in"><img src="{tethysImg}" alt="" class="border-2 p-2 border-dark-grey"><span class="pt-2">Tethys RDR</span></a>
+            <a href="/geospheremaps" class="hover:scale-95 duration-150 ease-out hover:ease-in"><img src="{geomapsImg}" alt="" class="border-2 p-2 border-dark-grey"><span>GeoSphere Maps</span></a>
+            <a href="/thesaurus" class="hover:scale-95 duration-150 ease-out hover:ease-in"><img src="{thesauImg}" alt="" class="border-2 p-2 border-dark-grey"><span>Thesaurus</span></a>
         </div>
     </div>
 </section>
+
 
 <style>
     * {

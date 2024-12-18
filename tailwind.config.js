@@ -2,7 +2,15 @@
 import flowbitePlugin from 'flowbite/plugin'
 
 export default {
-  content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
+  content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}', './src/styles/**/*.{html,js}'],
+  safelist: [
+    'text-teal',
+    'text-red',
+    'teal',
+    'red'
+    // Add accents
+  ],
+  mode: 'jit',
   theme: {
     extend: {
       fontFamily: {

@@ -5,8 +5,12 @@
   import { locale } from '$lib/translations/i18n';
   import { get } from 'svelte/store'; 
 
+  import clsx from 'clsx';
+  export let accentColour = '';
+  console.log(accentColour);
+
   export let newsFetchUrl;  
-  export let accentColour;
+
 
   let accordionData = [];
   let errorMessage = '';
@@ -55,12 +59,12 @@
   {#if errorMessage}
       <p>Error: {errorMessage}</p>
   {:else if accordionData.length > 0}
-      <Accordion defaultClass="" activeClass="bg-white border-b-0 {accentColour}">
+      <Accordion defaultClass="" activeClass="bg-white border-b-0">
           {#each accordionData as item}
               <AccordionItem
                   class="accordion-item pr-0 py-0"
                   defaultClass="flex items-center justify-between w-full font-medium text-left group-first:rounded-none bg-blue-grey"
-                  activeClass="inherit bg-white border-b-0 {accentColour}"
+                  activeClass={clsx('inherit bg-white border-b-0', accentColour)}
               >
                   <span slot="header" class="text-xs">
                       {item.date} <span class="ml-20 text-base">{item.title}</span>

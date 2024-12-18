@@ -1,7 +1,10 @@
 <script>
+    import clsx from "clsx";
+
     export let tabs = []; 
     export let activeTab; 
     export let onTabChange; 
+    export let accentColour='';
 </script>
 
 
@@ -10,7 +13,10 @@
     {#each tabs as tab}
       <li class="mr-2">
         <a href="#" 
-            class="inline-block py-2 px-2 border-b-0 relative z-2 top-3 border-grey {activeTab === tab ? 'activeTab' : ''}" 
+        class={clsx(
+          'inline-block py-2 px-2 border-b-0 relative z-2 top-3 border-grey',  
+          { 'activeTab': activeTab === tab, [accentColour]: activeTab === tab }
+        )}        
             on:click={() => onTabChange(tab)}> 
           {tab}
         </a>
@@ -26,11 +32,6 @@
     border-bottom: none;
     font-weight: bold; 
     border-color: #e5e7eb;
-    color: var(--accent-colour);
-  }
-
-  :global(:root) {
-    --accent-colour: {accentColour};
   }
 </style>
   

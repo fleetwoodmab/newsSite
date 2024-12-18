@@ -5,9 +5,11 @@
   import { onMount } from "svelte";
   import { get } from 'svelte/store'; 
 
-  export let faqFetchUrl;
+  import clsx from 'clsx';
+    export let accentColour = '';
+    console.log(accentColour);
 
-  export let accentColour;
+  export let faqFetchUrl;
 
   let searchTerm = "";
   let faqItems = [];
@@ -76,8 +78,8 @@
   {:else if faqItems.length > 0}
       <Accordion flush activeClass="text-lime-green">
           {#each filteredFaqItems as item}
-              <AccordionItem class="text-sm font-bold hover:{accentColour}">
-                  <span slot="header" class="pl-1">{item.title}</span>
+              <AccordionItem class="text-sm font-bold">
+                  <span slot="header" class={clsx('pl-1', accentColour)}>{item.title}</span>  
                   <div slot="arrowup">
                       <MinusOutline class="" />
                   </div>

@@ -98,7 +98,7 @@
           {/if}
   
           {#if description}
-            <p class="text-lg text-light-grey pt-8 text-justify">{description}</p>
+            <p class="text-lg text-light-grey pt-6 text-justify">{description}</p>
           {:else}
             <p>Loading description...</p>
           {/if}
